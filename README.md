@@ -1,25 +1,25 @@
-# Backup des Studienführers
+# Backup des ZaPF-Wiki
 
 Dieses Projekt dient dem Zweck, die Inhalte des
-[Studienführers Physik der ZaPF](http://studienführer-physik.de)
+[ZaPF-Wikis](http://zapfwiki.de)
 zu sichern. Dazu wird ein Skript des Projekts wikiteam genutzt,
 das automatisch alle Inhalte sichert.
 
 ### Benutzung
 
-Um die aktuelle Fassung des Studienführers zu sichern,
-bitte einfach `make` ausführen, wodurch das Backup Skript
+Um die aktuelle Fassung des ZaPF-Wiki zu sichern,
+bitte einfach `make` ausführen, wodurch das Backup-Skript
 aufgerufen wird und eine gepackte Datei mit dem Backup
 erstellt wird sowie die Ausgaben in eine Log-Datei
 geschrieben werden.
 
 ### Website
 Dieses Projekt ist veröffentlicht auf
-<https://github.com/StAPF/studienfuehrer-backup>.
+<https://github.com/StAPF/zapfwiki-backup>.
 
 ### Copyright / Lizenz
 
-Copyright (C) 2011 Philipp Klaus
+Copyright (C) 2012 Philipp Klaus
 
 Dieses Programm ist freie Software. Sie können es unter den Bedingungen der GNU General Public License, wie von der Free Software Foundation veröffentlicht, weitergeben und/oder modifizieren, entweder gemäß Version 3 der Lizenz oder (nach Ihrer Option) jeder späteren Version.
 
@@ -31,7 +31,7 @@ Sie sollten ein Exemplar der GNU General Public License zusammen mit diesem Prog
 
 * Philipp Klaus
   * E-Mail: **philipp.klaus →AT→ gmail.com**
-  * Mitglied des [StAPF](http://zapfev.de/zapf/stapf) (E-Mail: **der.stapf →AT→ gmail.com**)
+  * ehem. Mitglied des [StAPF](http://zapfev.de/zapf/stapf) (E-Mail: **der.stapf →AT→ gmail.com**)
 
 ### Links / Quellen
 * How to backup without access to the wiki server:

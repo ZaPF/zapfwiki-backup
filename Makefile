@@ -1,2 +1,2 @@
 all:
-	./backup.sh > studienfuehrer-last-backup.log
+	./backup.sh > zapfwiki-$(shell date +%Y-%m-%d)_backup.log

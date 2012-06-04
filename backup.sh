@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ### Über dieses Skript
-# Dieses Script dient dem Zweck, die Inhalte des Studienführers Physik der ZaPF zu sichern.
+# Dieses Script dient dem Zweck, die Inhalte des ZaPF-Wikis
 # Dazu wird ein Skript des Projekts wikiteam genutzt, das automatisch alle Inhalte sichert.
 #
 # Mehr Informationen gibt es in der Datei README.md
@@ -10,10 +10,10 @@
 set -x
 
 ## ----- Konfiguration:
-BASE_URL="https://studienfuehrer.physnet.uni-hamburg.de"
+BASE_URL="https://vmp.ethz.ch"
 #EXPORT_URL=$BASE_URL"/w/index.php5?title=Spezial:Exportieren"
-API_URL=$BASE_URL"/w/api.php"
-BACKUP_FOLDER="studienfuehrer-$(date +%Y-%m-%d)"
+API_URL=$BASE_URL"/zapfwiki/api.php"
+BACKUP_FOLDER="zapfwiki-$(date +%Y-%m-%d)"
 DUMPGENERATOR_TOOL_URL="http://wikiteam.googlecode.com/svn/trunk/dumpgenerator.py"
 DUMPGENERATOR_TOOL="dumpgenerator.py"
 
